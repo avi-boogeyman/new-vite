@@ -1,0 +1,36 @@
+# Ignore node_modules and dependency files
+node_modules
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Ignore build and output directories
+dist
+build
+.vite
+.cache
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore TypeScript build output
+*.d.ts
+
+# Ignore generated files
+coverage
+public/assets
+
+# Ignore Vite-related files
+.vitepress
+.vite-inspect
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore Prettier config itself
+.prettierignore
+
+# Ignore documentation files
+README.md
